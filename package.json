@@ -1,0 +1,35 @@
+{
+  "name": "g8-api-assistcontrol",
+  "version": "1.0.0",
+  "description": "Api-Node-Express-Mysql-ORM(Sequelize)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fdovillaquiran/g8-API-AssistControl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fdovillaquiran/g8-API-AssistControl/issues"
+  },
+  "homepage": "https://github.com/Fdovillaquiran/g8-API-AssistControl#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}
